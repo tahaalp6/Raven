@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary-light-color : #2EC4B6;
+$primary-dark-color : rgba(12, 103, 53, 0.5);
+$secondary-dark-color : #011627;
+$secondary-light-color : #62a8e2;
+$third-light-color : #f47d86;
+$third-dark-color : #73121a;
+
+
+.p-theme{
+  color: $primary-light-color;
+  background-color: $secondary-dark-color;
+  
+}
+.s-theme{
+  color : $secondary-dark-color;
+  background-color: $primary-light-color;
+}
+
+.p-light-theme{
+  color: white;
+  background-color: $primary-dark-color;
+}
+
+input,
+input:focus{
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100%;
+  display: block;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba($color: #ffffff, $alpha: 0.2);
+  
+}
+
+a,
+a:hover{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+a {
+  font-size: medium;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+}
+
+a:hover {
+  padding-left: 8px;
+  font-size: large;
+  transition-duration: 0.5s;
+}
+
+
+.wrapper{
+	background: #50a3a2;
+background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+background: linear-gradient(to bottom right, #50a38d 0%, #75e46b 100%);
+	
+	position: absolute;
+	left: 0;
+	width: 100%;
+  overflow: hidden;
+  z-index: 0;
+	
+	&.form-success{
+		.container{
+			h1{
+				transform: translateY(85px);
+			}
+		}
+	}
+}
+
