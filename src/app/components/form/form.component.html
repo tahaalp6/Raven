@@ -1,4 +1,4 @@
-<form action="" method="GET">
+<form action="/exam" method="GET">
   <div class="row">
     <div class="form-group col-md">
       <label for="text" class="mt-2">Adınız:</label>
@@ -21,9 +21,14 @@
   </div>
   
   <div class="row">
-    <div class="form-group col-md">
-      <label for="pwd">Şifre:</label>
-      <input type="password" class="" id="pwd">
+    <div class="form-group col-md-1">
+      <label for="grade">Sınıf:</label>
+      <select id="grade" name="Sınıf" class="d-block ml-2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
     </div>
     <div class="form-group col-md">
       <label for="pwd">Şifre:</label>
@@ -40,5 +45,5 @@
   <div class="checkbox ">
     <label class=""><input type="checkbox"> <p class="">Beni Hatırla</p></label>
   </div>
-  <button type="submit" class="btn btn-default btn-outline-dark">Kayıt</button>
+  <button type="submit" class="btn btn-default btn-outline-dark">Sınava Başla</button>
 </form>
