@@ -38,6 +38,9 @@ input:focus{
   
 }
 
+
+
+
 a,
 a:hover{
   color: white !important;
@@ -56,6 +59,15 @@ a:hover {
   transition-duration: 0.5s;
 }
 
+.content {
+  background-image: url("../src/assets/images/Background-website-01.jpg");
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+
+}
+
 
 .wrapper{
 	background: #50a3a2;
@@ -64,11 +76,9 @@ background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
 background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
 background: linear-gradient(to bottom right, #50a38d 0%, #75e46b 100%);
 	
-	position: absolute;
 	left: 0;
 	width: 100%;
   overflow: hidden;
-  z-index: 0;
 	
 	&.form-success{
 		.container{

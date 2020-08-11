@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exam.component.scss']
 })
 export class ExamComponent implements OnInit {
+  public href: string = "";
 
   constructor() { }
+
+  
 
   ngOnInit() {
   }
